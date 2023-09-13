@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Nunito Sans', sans-serif;
+}
+img{
+	width: 100%;
+}
+.login {
+    height: 100vh;
+    width: 100%;
+    background: rgb(2,0,36);
+background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(150,226,148,1) 0%, rgba(108,222,178,1) 1%, rgba(0,65,107,1) 74%);
+    position: relative;
+}
+.login_box {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+    overflow: hidden;
+}
+.login_box .left{
+  width: 41%;
+  height: 100%;
+  padding: 25px 25px;
+  
+}
+.login_box .right{
+  width: 59%;
+  height: 100%  
+}
+.left .top_link a {
+    color: #452A5A;
+    font-weight: 400;
+}
+.left .top_link{
+  height: 20px
+}
+.left .contact{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+.left h3{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.left p{
+  text-align: center;
+  margin-top: -30px;
+  color:red;
+}
+.left input {
+    border: none;
+    width: 80%;
+    margin: 15px 0px;
+    border-bottom: 1px solid #4f30677d;
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    font-size: 14px;
+}
+.left{
+	background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+.submit {
+    border: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(43, 107, 133);
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    transition: 0.5s ease;
+}
+
+
+
+.right {
+	background: rgb(2,0,36);
+background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(150,226,148,1) 0%, rgba(108,222,178,1) 1%, rgba(0,65,107,1) 74%);
+	color: #fff;
+	position: relative;
+}
+
+
+.right .right-text{
+  height: 100%;
+  position: relative;
+  transform: translate(0%, 45%);
+}
+.right .right-text img{
+  margin-top: -275px;
+  transform: scale(0.5);
+}
+
+.right-text h2{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: -100px;
+}
+.right-text h5{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.right-text p{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+
+}
+
+.right .right-inductor{
+  position: absolute;
+  width: 70px;
+  height: 7px;
+  background: #fff0;
+  left: 50%;
+  bottom: 70px;
+  transform: translate(-50%, 0%);
+}
+.top_link img {
+    width: 28px;
+    padding-right: 7px;
+    margin-top: -3px;
+}
+
+@media (max-width: 768px) {
+  .right {
+    transition: display 0.9s ease-in-out; /* Add transition property */
+    display: none;
+
+    
+  }
+  
+  .login_box .left {
+    width: 100%;
+    transition: width 0.5s ease-in-out; /* Add transition property */
+    border-top: 5px solid rgb(38, 148, 156);
+  }
+  
+  .login_box {
+    width: 370px;
+    transition: width 0.5s ease-in-out; /* Add transition property */
+  }
+}
+
+
+

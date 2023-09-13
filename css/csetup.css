@@ -1,0 +1,89 @@
+.csetup_container{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+}
+.csetup_container .content{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+.csetup_container .content form{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.csetup_container .content form .clogo-container{
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;  
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.csetup_container .content form .clogo-container .img-contr{
+    margin-right: 30px;
+    max-width: 200px;
+    height: auto;
+    overflow: hidden;
+
+}
+.csetup_container .content form .clogo-container .img-contr img{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.csetup_container .content form .clogo-container label{
+    margin-right: 10px;
+}
+
+.csetup_container .content form .input-handler{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+}
+.csetup_container .content form .input-handler input{
+    box-sizing: border-box;
+    padding: 5px;
+    width: 45%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid rgb(79, 148, 142);
+}
+.csetup_container .content form .input-handler textarea{
+    width: 90%;
+    height: 40px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1.5px solid rgb(79, 148, 142); 
+    background-color: transparent;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.csetup_container .content form .input-handler input:focus{
+    outline-color: rgb(106, 178, 196);
+    outline-width: thick;
+}
+
+.csetup_container .content form .input-handler i{
+    color: rgb(119, 175, 228);
+}
+.csetup_container .content form .input-handler button{
+    background-color: aquamarine;
+    font-size: 13px;
+    border: 1px solid rgb(135, 234, 252);
+    border-radius: 5px;
+    padding: 1.5%;
+    width: 100px;
+}
+.csetup_container .content form .input-handler button:hover{
+    background-color: rgb(122, 224, 190);
+}

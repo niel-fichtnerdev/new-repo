@@ -1,0 +1,59 @@
+Options -Indexes
+
+<Files "header.php">
+    Deny from all
+</Files>
+
+<Files "footer.php">
+    Deny from all
+</Files>
+
+
+<Files "fdirectory.php">
+    Deny from all
+</Files>
+
+<Files "loader.php">
+    Deny from all
+</Files>
+
+
+<Files "graphs_report.php">
+    Deny from all
+</Files>
+
+<Files "getcategories.php">
+    Deny from all
+</Files>
+
+<Files "getcurrenttrx.php">
+    Deny from all
+</Files>
+
+<Files "getproducts.php">
+    Deny from all
+</Files>
+
+<Files "main.php">
+    Deny from all
+</Files>
+
+<Files "side_nav.php">
+    Deny from all
+</Files>
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+
+<Files "forbidden.php">
+    Deny from all
+</Files>
+
+
+
+
+

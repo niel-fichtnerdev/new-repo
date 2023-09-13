@@ -1,0 +1,23 @@
+
+@media (max-width: 815px) {
+    .main_wrapper .main .main_content .the_content .graph_contianer .graph_curve {
+      flex-direction: column-reverse;
+      transform: scale(0.8);
+    }
+    .main_wrapper{
+        height: auto;
+        margin-top: 5%;
+    }
+}
+
+
+@media (max-width: 425px){
+    .main_wrapper{
+        margin-left: 2%;
+        margin-right: 10%;
+        width: 93%;
+    }
+    .main_wrapper .main{
+        width: 88%;
+    }
+}
